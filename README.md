@@ -3,6 +3,8 @@ llama3 70b training and inference
 
 ```
 
+# https://huggingface.co/vincentoh/llama3_70b_no_robot_fsdp_qlora
+
 # creating train and test datasets
 python no_robots2json.py
 
