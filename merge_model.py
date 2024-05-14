@@ -5,7 +5,7 @@ from peft import AutoPeftModelForCausalLM
 
 # Load PEFT model on CPU
 model = AutoPeftModelForCausalLM.from_pretrained(
-    output_dir,
+    output_dir="./merged_llama-3-70b-hf-no-robot",
     torch_dtype=torch.float16,
     low_cpu_mem_usage=True,
 )
