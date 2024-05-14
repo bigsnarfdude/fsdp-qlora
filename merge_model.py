@@ -1,3 +1,5 @@
+# need 138GB RAM
+
 import torch
 from peft import AutoPeftModelForCausalLM
 
